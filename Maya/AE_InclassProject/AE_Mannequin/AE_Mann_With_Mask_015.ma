@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: AE_Mann_With_Mask_014.ma
-//Last modified: Sun, Apr 07, 2019 06:59:03 PM
+//Name: AE_Mann_With_Mask_015.ma
+//Last modified: Sun, Apr 07, 2019 07:01:51 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "B51F03DE-40FA-8BAF-5D81-ACA521CBA5BC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 538.17347096593812 457.02342528380029 480.89915822720889 ;
-	setAttr ".r" -type "double3" 344.66164728337299 1850.5999999994206 -1.2527185219827353e-15 ;
+	setAttr ".t" -type "double3" 742.13863412215528 616.68495753558682 722.86452112048005 ;
+	setAttr ".r" -type "double3" 340.46164728321088 1846.9999999993433 1.1658952820403317e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6A15D8E0-4771-2969-A89D-29B91EF42962";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 625.2003810670351;
+	setAttr ".coi" 971.89587928639116;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -17642,19 +17642,19 @@ createNode mesh -n "Mann_Foot0Shape2" -p "Mann_Foot02";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".dr" 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "B0071E4A-44CC-2F0A-7050-01B66924AF59";
+	rename -uid "4994F96B-4C07-2A36-BFED-E0B197D3D004";
 	setAttr -s 7 ".lnk";
 	setAttr -s 7 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "EA44692D-44B6-64AA-FE28-A796212C5AFA";
+	rename -uid "48EABE27-4D77-520A-D6FB-D899F193374A";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "043264A4-492D-6560-7094-9595293D9BD7";
+	rename -uid "DE3C94DB-4D36-BF25-E36B-C8B11E8329E0";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "E821C2D8-490B-98A8-9442-8E8010FFD5E7";
+	rename -uid "3A38E19D-4812-A63A-9655-D581550578DF";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "DF4D30F5-4B6F-64F6-AC56-EAB55580C92D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "C0E974C1-4AE2-E013-5BBD-8CA86DCDF9C9";
+	rename -uid "BCD0886C-4196-6B79-48D9-70B627C12372";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "4527C422-452C-3CC0-D37F-EB8CC1DD490E";
 	setAttr ".g" yes;
@@ -17970,6 +17970,8 @@ select -ne :defaultResolution;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
+select -ne :ikSystem;
+	setAttr -s 4 ".sol";
 connectAttr "groupId94.id" "Mann_MaskShape.iog.og[1].gid";
 connectAttr "lambert3SG.mwc" "Mann_MaskShape.iog.og[1].gco";
 connectAttr "groupId95.id" "Mann_MaskShape.iog.og[2].gid";
@@ -18254,4 +18256,4 @@ connectAttr "groupId50.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId52.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId66.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId68.msg" ":initialShadingGroup.gn" -na;
-// End of AE_Mann_With_Mask_014.ma
+// End of AE_Mann_With_Mask_015.ma
