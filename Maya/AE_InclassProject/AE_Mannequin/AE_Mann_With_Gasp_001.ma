@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff09 scene
 //Name: AE_Mann_With_Gasp_001.ma
-//Last modified: Mon, Apr 22, 2019 03:29:25 PM
+//Last modified: Mon, Apr 22, 2019 03:31:26 PM
 //Codeset: 1252
 requires maya "2018ff09";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "B51F03DE-40FA-8BAF-5D81-ACA521CBA5BC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 458.48890208726414 753.88645015749648 -628.37449192386941 ;
-	setAttr ".r" -type "double3" 327.86164727182745 3024.5999999989945 0 ;
+	setAttr ".t" -type "double3" 617.83846891323583 624.92368612356233 -385.29850332304665 ;
+	setAttr ".r" -type "double3" 334.46164727182713 3002.1999999989862 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6A15D8E0-4771-2969-A89D-29B91EF42962";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 892.11446252836481;
+	setAttr ".coi" 801.3196407812743;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
