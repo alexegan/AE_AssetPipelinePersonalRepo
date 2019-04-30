@@ -1,4 +1,4 @@
-﻿Log file open, 04/29/19 19:08:33
+﻿Log file open, 04/30/19 01:43:24
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SizeTest
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 3.330173
+LogStats: Stats thread started at 0.303491
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.502s to configure plugins.
+LogStreaming: Display: Took  0.132s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,662 +147,531 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.023s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.30-01.08.36:491][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.30-01.08.36:491][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.30-01.08.36:581][  0]LogHAL: Display: Platform has ~ 8 GB [8536752128 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.30-01.08.36:586][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.04.30-01.08.36:586][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.30-01.08.36:625][  0]LogInit: Computer: ALEX-PC
-[2019.04.30-01.08.36:626][  0]LogInit: User: Alex
-[2019.04.30-01.08.36:626][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.30-01.08.36:626][  0]LogInit: High frequency timer resolution =3.421880 MHz
-[2019.04.30-01.08.36:626][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2019.04.30-01.08.36:626][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.30-01.08.36:626][  0]LogMemory: Process Physical Memory: 100.43 MB used, 100.43 MB peak
-[2019.04.30-01.08.36:626][  0]LogMemory: Process Virtual Memory: 84.11 MB used, 84.11 MB peak
-[2019.04.30-01.08.36:626][  0]LogMemory: Physical Memory: 4594.43 MB used,  3546.85 MB free, 8141.28 MB total
-[2019.04.30-01.08.36:626][  0]LogMemory: Virtual Memory: 4620.61 MB used,  3546.85 MB free, 134217728.00 MB total
-[2019.04.30-01.08.37:200][  0]LogInit: Using OS detected language (en-US).
-[2019.04.30-01.08.37:200][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.30-01.08.37:300][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.30-01.08.38:083][  0]LogStreaming: Display: Took  0.852s to InitEngineTextLocalization.
-[2019.04.30-01.08.38:098][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.30-01.08.38:756][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.30-01.08.38:756][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.30-01.08.43:971][  0]LogHMD: Failed to initialize OpenVR with code 100
-[2019.04.30-01.08.43:971][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.30-01.08.44:054][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2019.04.30-01.08.44:054][  0]LogD3D11RHI:       6052/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.04.30-01.08.44:070][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.30-01.08.44:070][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.30-01.08.44:070][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.30-01.08.44:076][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.30-01.08.44:076][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.30-01.08.44:086][  0]LogWindows: EnumDisplayDevices:
-[2019.04.30-01.08.44:087][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2019.04.30-01.08.44:087][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2019.04.30-01.08.44:087][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.04.30-01.08.44:087][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.04.30-01.08.44:087][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.04.30-01.08.44:087][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2019.04.30-01.08.44:088][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
-[2019.04.30-01.08.44:088][  0]LogD3D11RHI:      Driver Date: 12-11-2018
-[2019.04.30-01.08.44:088][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.04.30-01.08.44:146][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.30-01.08.44:421][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.04.30-01.08.44:461][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Intermediate/Shaders/WorkingDirectory/15796/).
-[2019.04.30-01.08.44:461][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/A09F76334E730B4B594F5CB276745F9F/'.
-[2019.04.30-01.08.45:532][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.30-01.08.45:567][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.30-01.08.45:590][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.30-01.08.45:620][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.30-01.08.45:693][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.30-01.08.45:739][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.30-01.08.45:769][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.30-01.08.45:803][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.30-01.08.45:829][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:933][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.30-01.08.45:957][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.30-01.08.46:120][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.30-01.08.46:120][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.30-01.08.46:178][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.30-01.08.46:178][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.30-01.08.46:247][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.30-01.08.46:280][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.30-01.08.46:327][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.30-01.08.46:367][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.30-01.08.46:400][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.30-01.08.46:400][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.30-01.08.47:248][  0]LogXGEController: Cleaning working directory: C:/Users/Alex/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.30-01.08.47:248][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.30-01.08.47:248][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.30-01.08.47:248][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.30-01.08.49:848][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.30-01.08.50:290][  0]LogDerivedDataCache: Loaded boot cache 0.44s 71MB C:/Users/Alex/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.30-01.08.50:291][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.04.30-01.08.50:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.30-01.08.50:291][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.30-01.08.50:291][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.30-01.08.50:291][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.30-01.08.50:379][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.30-01.08.50:393][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.30-01.08.50:393][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.30-01.08.50:393][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.30-01.08.50:460][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.30-01.08.50:533][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.30-01.08.50:721][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.30-01.08.52:495][  0]LogAssetRegistry: FAssetRegistry took 0.0702 seconds to start up
-[2019.04.30-01.08.56:520][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.30-01.09.00:025][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.30-01.09.00:156][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.30-01.09.00:157][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.30-01.09.00:157][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.30-01.09.00:157][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.30-01.09.00:545][  0]LogNetVersion: SizeTest 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 433744816)
-[2019.04.30-01.09.04:914][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.228105 seconds
-[2019.04.30-01.09.04:952][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.04.30-01.09.04:952][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.04.30-01.09.04:952][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.30-01.09.19:239][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.30-01.09.19:284][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.30-01.09.20:492][  0]SourceControl: Source control is disabled
-[2019.04.30-01.09.20:500][  0]SourceControl: Source control is disabled
-[2019.04.30-01.09.20:587][  0]SourceControl: Source control is disabled
-[2019.04.30-01.09.20:607][  0]SourceControl: Source control is disabled
-[2019.04.30-01.09.21:970][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.30-01.09.22:192][  0]LogOcInput: OculusInput pre-init called
-[2019.04.30-01.09.22:851][  0]LogEngine: Initializing Engine...
-[2019.04.30-01.09.22:869][  0]LogHMD: Failed to initialize OpenVR with code 100
-[2019.04.30-01.09.22:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.04.30-01.09.22:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.30-01.09.22:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.30-01.09.22:897][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.30-01.09.23:592][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.30-01.09.24:044][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.30-01.09.24:161][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.30-01.09.24:229][  0]LogInit: FAudioDevice initialized.
-[2019.04.30-01.09.24:230][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.30-01.09.24:327][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Alex/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.30-01.09.24:339][  0]LogInit: Texture streaming: Enabled
-[2019.04.30-01.09.24:491][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.30-01.09.24:786][  0]LogInit: Transaction tracking system initialized
-[2019.04.30-01.09.27:084][  0]BlueprintLog: New page: Editor Load
-[2019.04.30-01.09.29:790][  0]LocalizationService: Localization service is disabled
-[2019.04.30-01.09.35:279][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/' took 0.03s
-[2019.04.30-01.09.35:279][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.30-01.09.35:295][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.30-01.09.35:378][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.30-01.09.35:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.30-01.09.35:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.30-01.09.35:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.30-01.09.35:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.30-01.09.43:791][  0]SourceControl: Source control is disabled
-[2019.04.30-01.09.43:881][  0]Cmd: MAP LOAD FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.30-01.09.44:375][  0]LightingResults: New page: Lighting Build
-[2019.04.30-01.09.45:846][  0]MapCheck: New page: Map Check
-[2019.04.30-01.09.45:846][  0]LightingResults: New page: Lighting Build
-[2019.04.30-01.09.59:286][  0]LogAIModule: Creating AISystem for world TestMap
-[2019.04.30-01.10.05:223][  0]LogEditorServer: Finished looking for orphan Actors (0.018 secs)
-[2019.04.30-01.10.07:503][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.30-01.10.07:801][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 297.954ms to complete.
-[2019.04.30-01.10.07:880][  0]LogFileHelpers: Loading map 'TestMap' took 24.082
-[2019.04.30-01.10.18:157][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.30-01.10.18:297][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.30-01.10.18:305][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.30-01.10.18:313][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.30-01.10.19:264][  0]LogCollectionManager: Loaded 0 collections in 0.033307 seconds
-[2019.04.30-01.10.21:096][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/Collections/' took 0.01s
-[2019.04.30-01.10.21:096][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Developers/Alex/Collections/' took 0.01s
-[2019.04.30-01.10.21:096][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Collections/' took 0.01s
-[2019.04.30-01.10.21:096][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.04.30-01.10.21:258][  0]LogContentBrowser: Native class hierarchy populated in 0.0789 seconds. Added 2572 classes and 603 folders.
-[2019.04.30-01.10.21:955][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.04.30-01.10.26:145][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.04.30-01.10.26:360][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.04.30-01.10.28:912][  0]LogSlate: Took 0.157873 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.30-01.10.29:370][  0]LogSlate: Took 0.380580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.30-01.10.29:530][  0]LogSlate: Took 0.012754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.30-01.10.32:400][  0]LogRenderer: Reallocating scene render targets to support 1192x656 Format 10 NumSamples 1 (Frame:1).
-[2019.04.30-01.10.35:889][  0]LogSlate: Took 0.014550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.30-01.10.37:056][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.04.30-01.10.37:056][  0]LogLoad: (Engine Initialization) Total time: 140.01 seconds
-[2019.04.30-01.10.37:056][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.30-01.10.38:779][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.30-01.10.40:458][  2]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.30-01.10.40:752][  4]LogAssetRegistry: Asset discovery search completed in 108.2809 seconds
-[2019.04.30-01.10.40:829][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.04.30-01.10.40:829][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.017937 seconds (updated 0 objects)
-[2019.04.30-01.19.19:534][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.20.44:209][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.20.50:169][558]LogAIModule: Creating AISystem for world StreetBlockLocal
-[2019.04.30-01.20.50:240][558]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/StreetBlockLocal.StreetBlockLocal
-[2019.04.30-01.20.50:353][558]Cmd: MAP LOAD FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Maps/StreetBlockLocal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.30-01.20.50:353][558]LightingResults: New page: Lighting Build
-[2019.04.30-01.20.50:354][558]LoadErrors: New page: Loading map: StreetBlockLocal.umap
-[2019.04.30-01.20.50:420][558]MapCheck: New page: Map Check
-[2019.04.30-01.20.50:420][558]LightingResults: New page: Lighting Build
-[2019.04.30-01.20.50:699][558]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.30-01.20.50:785][558]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.30-01.20.50:849][558]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.102ms to complete.
-[2019.04.30-01.20.50:849][558]LogFileHelpers: Loading map 'StreetBlockLocal' took 0.535
-[2019.04.30-01.20.55:555][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.21.39:947][754]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_ArcBlock.fbx)
-[2019.04.30-01.21.40:140][754]LogFbx: Loading FBX Scene from ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_ArcBlock.fbx
-[2019.04.30-01.21.40:151][754]LogFbx: FBX Scene Loaded Succesfully
-[2019.04.30-01.21.44:547][754]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.04.30-01.21.44:646][754]LogFbx: Warning: Triangulating static mesh AE_ArcBlock
-[2019.04.30-01.21.44:753][754]LogStaticMesh: Building static mesh AE_ArcBlock...
-[2019.04.30-01.21.44:820][754]LogStaticMesh: Built static mesh [0.07s] /Game/Meshes/AE_ArcBlock.AE_ArcBlock
-[2019.04.30-01.21.45:018][754]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.04.30-01.21.45:172][754]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_DoorHalfBlock.fbx)
-[2019.04.30-01.21.45:182][754]LogFbx: Loading FBX Scene from ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_DoorHalfBlock.fbx
-[2019.04.30-01.21.45:188][754]LogFbx: FBX Scene Loaded Succesfully
-[2019.04.30-01.21.45:189][754]LogFbx: Warning: Triangulating static mesh AE_DoorHalfBlock
-[2019.04.30-01.21.45:196][754]LogStaticMesh: Building static mesh AE_DoorHalfBlock...
-[2019.04.30-01.21.45:197][754]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/AE_DoorHalfBlock.AE_DoorHalfBlock
-[2019.04.30-01.21.45:207][754]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.04.30-01.21.45:246][754]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_DoorOpeningBlock.fbx)
-[2019.04.30-01.21.45:256][754]LogFbx: Loading FBX Scene from ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_DoorOpeningBlock.fbx
-[2019.04.30-01.21.45:262][754]LogFbx: FBX Scene Loaded Succesfully
-[2019.04.30-01.21.45:262][754]LogFbx: Warning: Triangulating static mesh AE_DoorOpeningBlock
-[2019.04.30-01.21.45:275][754]LogStaticMesh: Building static mesh AE_DoorOpeningBlock...
-[2019.04.30-01.21.45:280][754]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/AE_DoorOpeningBlock.AE_DoorOpeningBlock
-[2019.04.30-01.21.45:291][754]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.04.30-01.21.45:336][754]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_GentleSlopeBlock.fbx)
-[2019.04.30-01.21.45:346][754]LogFbx: Loading FBX Scene from ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_GentleSlopeBlock.fbx
-[2019.04.30-01.21.45:351][754]LogFbx: FBX Scene Loaded Succesfully
-[2019.04.30-01.21.45:352][754]LogFbx: Warning: Triangulating static mesh AE_SlopeBlock
-[2019.04.30-01.21.45:356][754]LogStaticMesh: Building static mesh AE_GentleSlopeBlock...
-[2019.04.30-01.21.45:359][754]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/AE_GentleSlopeBlock.AE_GentleSlopeBlock
-[2019.04.30-01.21.45:369][754]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.04.30-01.21.45:414][754]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_SteepSlopeBlock.fbx)
-[2019.04.30-01.21.45:424][754]LogFbx: Loading FBX Scene from ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_SteepSlopeBlock.fbx
-[2019.04.30-01.21.45:429][754]LogFbx: FBX Scene Loaded Succesfully
-[2019.04.30-01.21.45:429][754]LogFbx: Warning: Triangulating static mesh pCube1
-[2019.04.30-01.21.45:434][754]LogStaticMesh: Building static mesh AE_SteepSlopeBlock...
-[2019.04.30-01.21.45:437][754]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/AE_SteepSlopeBlock.AE_SteepSlopeBlock
-[2019.04.30-01.21.45:447][754]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.04.30-01.21.45:467][754]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_TallThinBlock.fbx)
-[2019.04.30-01.21.45:476][754]LogFbx: Loading FBX Scene from ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/External Content/FBX/AE_TallThinBlock.fbx
-[2019.04.30-01.21.45:482][754]LogFbx: FBX Scene Loaded Succesfully
-[2019.04.30-01.21.45:482][754]LogFbx: Warning: Triangulating static mesh AE_PillarBlock
-[2019.04.30-01.21.45:495][754]LogStaticMesh: Building static mesh AE_TallThinBlock...
-[2019.04.30-01.21.45:497][754]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/AE_TallThinBlock.AE_TallThinBlock
-[2019.04.30-01.21.45:508][754]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.04.30-01.21.49:929][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.21.50:026][237]LogSlate: Window 'Message Log' being destroyed
-[2019.04.30-01.21.50:028][237]LogSlate: Window 'Message Log' being destroyed
-[2019.04.30-01.21.54:137][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.21.54:411][718]LogActorFactory: Actor Factory created AE_ArcBlock
-[2019.04.30-01.21.54:461][718]LogActorFactory: Actor Factory created AE_DoorHalfBlock
-[2019.04.30-01.21.54:461][718]LogActorFactory: Actor Factory created AE_DoorOpeningBlock
-[2019.04.30-01.21.54:462][718]LogActorFactory: Actor Factory created AE_GentleSlopeBlock
-[2019.04.30-01.21.54:463][718]LogActorFactory: Actor Factory created AE_SteepSlopeBlock
-[2019.04.30-01.21.54:464][718]LogActorFactory: Actor Factory created AE_TallThinBlock
-[2019.04.30-01.21.56:651][970]LogActorFactory: Actor Factory created AE_ArcBlock
-[2019.04.30-01.21.57:068][970]LogActorFactory: Actor Factory created AE_DoorHalfBlock
-[2019.04.30-01.21.57:099][970]LogActorFactory: Actor Factory created AE_DoorOpeningBlock
-[2019.04.30-01.21.57:119][970]LogActorFactory: Actor Factory created AE_GentleSlopeBlock
-[2019.04.30-01.21.57:136][970]LogActorFactory: Actor Factory created AE_SteepSlopeBlock
-[2019.04.30-01.21.57:156][970]LogActorFactory: Actor Factory created AE_TallThinBlock
-[2019.04.30-01.21.58:268][ 56]Cmd: TRANSACTION UNDO
-[2019.04.30-01.21.58:268][ 56]LogEditorTransaction: Undo Create Actors
-[2019.04.30-01.21.59:027][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.21.59:785][217]LogActorFactory: Actor Factory created AE_TallThinBlock
-[2019.04.30-01.22.00:571][310]LogActorFactory: Actor Factory created AE_TallThinBlock
-[2019.04.30-01.22.33:088][873]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock2)
-[2019.04.30-01.22.33:786][945]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock)
-[2019.04.30-01.22.35:077][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.22.43:563][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.23.53:528][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock3)
-[2019.04.30-01.23.57:360][524]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock3)
-[2019.04.30-01.23.58:168][594]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock2)
-[2019.04.30-01.23.58:861][672]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock)
-[2019.04.30-01.24.24:537][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.24.24:620][554]LogActorFactory: Actor Factory created AE_SteepSlopeBlock
-[2019.04.30-01.24.27:377][868]LogActorFactory: Actor Factory created AE_SteepSlopeBlock
-[2019.04.30-01.24.43:638][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.24.50:266][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.25.25:418][110]Cmd: TRANSACTION UNDO
-[2019.04.30-01.25.25:418][110]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.25.29:356][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.25.49:431][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.26.06:312][672]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_SteepSlopeBlock2)
-[2019.04.30-01.26.06:752][703]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_SteepSlopeBlock)
-[2019.04.30-01.26.11:832][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_SteepSlopeBlock4)
-[2019.04.30-01.26.15:221][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_SteepSlopeBlock5)
-[2019.04.30-01.26.18:034][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_8)
-[2019.04.30-01.26.18:835][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_SteepSlopeBlock5)
-[2019.04.30-01.26.21:158][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_SteepSlopeBlock6)
-[2019.04.30-01.26.24:576][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.26.24:675][644]LogSlate: Took 0.012193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.30-01.26.48:108][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_1)
-[2019.04.30-01.27.00:473][538]Cmd: TRANSACTION UNDO
-[2019.04.30-01.27.00:473][538]LogEditorTransaction: Undo Snap Actors To Floor
-[2019.04.30-01.27.23:104][632]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.27.24:275][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_2)
-[2019.04.30-01.27.25:288][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.27.26:385][987]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.27.28:405][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.27.35:834][ 66]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.27.36:376][118]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.27.39:344][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.27.40:451][588]Cmd: TRANSACTION UNDO
-[2019.04.30-01.27.40:451][588]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.27.52:224][953]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.27.52:484][953]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.27.52:795][987]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.27.53:535][ 71]Cmd: TRANSACTION UNDO
-[2019.04.30-01.27.53:535][ 71]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2019.04.30-01.27.53:950][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.27.56:028][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.27.56:737][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.27.59:267][699]Cmd: TRANSACTION UNDO
-[2019.04.30-01.27.59:267][699]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.27.59:487][722]Cmd: TRANSACTION UNDO
-[2019.04.30-01.27.59:487][722]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.27.59:686][737]Cmd: TRANSACTION UNDO
-[2019.04.30-01.27.59:686][737]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.27.59:880][754]Cmd: TRANSACTION UNDO
-[2019.04.30-01.27.59:880][754]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.28.00:082][775]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.00:082][775]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.28.00:485][816]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.00:485][816]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.28.00:820][853]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.00:820][853]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.28.01:096][884]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.01:096][884]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.28.01:313][908]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.01:313][908]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.28.01:587][939]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.01:587][939]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.28.02:655][ 61]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.02:655][ 61]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.28.03:771][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.28.10:069][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.28.12:983][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.28.22:779][  0]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.22:779][  0]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.28.22:997][ 23]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.22:997][ 23]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.28.23:275][ 48]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.23:275][ 48]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.28.23:493][ 72]Cmd: TRANSACTION UNDO
-[2019.04.30-01.28.23:493][ 72]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.30.02:708][465]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.30.07:864][ 26]Cmd: SELECT NONE
-[2019.04.30-01.30.09:541][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.30.10:611][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_16)
-[2019.04.30-01.30.11:688][438]Cmd: DELETE
-[2019.04.30-01.30.11:688][438]Cmd: ACTOR DELETE
-[2019.04.30-01.30.11:768][438]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.30.11:837][438]LogEditorActor: Deleted 1 Actors (0.149 secs)
-[2019.04.30-01.30.12:329][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.30.23:240][740]Cmd: DELETE
-[2019.04.30-01.30.23:240][740]Cmd: ACTOR DELETE
-[2019.04.30-01.30.23:253][740]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.30.23:273][740]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2019.04.30-01.30.24:055][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.30.24:880][925]Cmd: DELETE
-[2019.04.30-01.30.24:880][925]Cmd: ACTOR DELETE
-[2019.04.30-01.30.24:894][925]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.30.24:915][925]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2019.04.30-01.30.27:294][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.30.57:197][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_7)
-[2019.04.30-01.30.57:649][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.31.05:062][819]Cmd: DELETE
-[2019.04.30-01.31.05:062][819]Cmd: ACTOR DELETE
-[2019.04.30-01.31.05:076][819]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.31.05:097][819]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2019.04.30-01.31.05:288][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_16)
-[2019.04.30-01.31.05:370][846]Cmd: DELETE
-[2019.04.30-01.31.05:370][846]Cmd: ACTOR DELETE
-[2019.04.30-01.31.05:385][846]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.31.05:405][846]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2019.04.30-01.31.11:090][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_SteepSlopeBlock4)
-[2019.04.30-01.31.11:774][573]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.31.12:302][630]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_SteepSlopeBlock5)
-[2019.04.30-01.31.13:137][723]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_SteepSlopeBlock6)
-[2019.04.30-01.31.19:208][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.31.29:663][576]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.31.30:549][676]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.31.38:748][588]Cmd: SELECT NONE
-[2019.04.30-01.31.51:463][ 91]Cmd: TRANSACTION UNDO
-[2019.04.30-01.31.51:463][ 91]LogEditorTransaction: Undo Select None
-[2019.04.30-01.31.51:682][102]Cmd: TRANSACTION UNDO
-[2019.04.30-01.31.51:682][102]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.31.51:878][109]Cmd: TRANSACTION UNDO
-[2019.04.30-01.31.51:879][109]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.31.52:069][120]Cmd: TRANSACTION UNDO
-[2019.04.30-01.31.52:069][120]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.31.52:596][168]Cmd: TRANSACTION UNDO
-[2019.04.30-01.31.52:596][168]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.31.52:925][202]Cmd: TRANSACTION UNDO
-[2019.04.30-01.31.52:925][202]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.31.53:277][242]Cmd: TRANSACTION UNDO
-[2019.04.30-01.31.53:277][242]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.31.54:807][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.31.56:420][601]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.31.57:128][680]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.32.01:113][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.32.03:525][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.32.09:257][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.32.12:816][457]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.32.13:249][501]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.32.14:904][688]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.14:904][688]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.15:115][704]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.15:115][704]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.32.15:316][724]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.15:316][724]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.15:509][741]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.15:509][741]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.32.15:703][762]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.15:703][762]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.15:908][781]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.15:909][781]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.32.16:134][806]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.16:134][806]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.16:555][851]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.16:555][851]LogEditorTransaction: Undo Scale Actors
-[2019.04.30-01.32.16:763][874]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.16:763][874]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.17:233][925]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.17:233][925]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.17:620][967]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.17:620][967]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.17:971][  0]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.17:971][  0]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.32.19:116][130]Cmd: TRANSACTION REDO
-[2019.04.30-01.32.19:116][130]LogEditorTransaction: Redo Move Actors
-[2019.04.30-01.32.21:620][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.32.22:230][481]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.22:231][481]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.24:522][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_13)
-[2019.04.30-01.32.25:123][806]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_14)
-[2019.04.30-01.32.25:472][842]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.32.47:837][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock5)
-[2019.04.30-01.32.48:299][461]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock)
-[2019.04.30-01.32.48:988][538]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.04.30-01.32.49:506][594]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock6)
-[2019.04.30-01.32.50:166][670]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.50:166][670]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.50:821][743]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.50:821][743]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.51:158][777]Cmd: TRANSACTION UNDO
-[2019.04.30-01.32.51:158][777]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.32.52:283][907]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock)
-[2019.04.30-01.32.52:916][977]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock6)
-[2019.04.30-01.32.53:776][ 72]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock2)
-[2019.04.30-01.32.54:569][162]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock7)
-[2019.04.30-01.32.55:029][205]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock3)
-[2019.04.30-01.32.56:437][367]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock8)
-[2019.04.30-01.32.56:859][412]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock4)
-[2019.04.30-01.33.22:069][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.33.22:192][291]LogActorFactory: Actor Factory created AE_GentleSlopeBlock
-[2019.04.30-01.33.23:085][388]LogActorFactory: Actor Factory created AE_GentleSlopeBlock
-[2019.04.30-01.33.32:938][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.33.39:912][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.33.55:916][ 58]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_GentleSlopeBlock)
-[2019.04.30-01.34.02:985][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_GentleSlopeBlock4)
-[2019.04.30-01.34.04:035][936]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_GentleSlopeBlock)
-[2019.04.30-01.34.04:703][  8]Cmd: DELETE
-[2019.04.30-01.34.04:703][  8]Cmd: ACTOR DELETE
-[2019.04.30-01.34.04:719][  8]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.34.04:719][  8]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.34.04:739][  8]LogEditorActor: Deleted 2 Actors (0.037 secs)
-[2019.04.30-01.34.25:783][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.34.26:980][455]LogSlate: Window 'Save Content' being destroyed
-[2019.04.30-01.34.27:003][455]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.34.28:748][455]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/StreetBlockLocal185A48DC433FD70EE3C07A951B999916.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Maps/StreetBlockLocal.umap'
-[2019.04.30-01.34.28:860][455]LogFileHelpers: Saving map 'StreetBlockLocal' took 1.841
-[2019.04.30-01.34.28:902][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/AE_ArcBlock" FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_ArcBlock.uasset" SILENT=true
-[2019.04.30-01.34.28:954][455]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/AE_ArcBlockDCFC2B5A4E04EF555D8020B84E4EEBF6.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_ArcBlock.uasset'
-[2019.04.30-01.34.28:972][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/AE_DoorHalfBlock" FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_DoorHalfBlock.uasset" SILENT=true
-[2019.04.30-01.34.28:991][455]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/AE_DoorHalfBlock1B0C02A6416DF02A51F0DBBAF16D88D9.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_DoorHalfBlock.uasset'
-[2019.04.30-01.34.29:007][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/AE_DoorOpeningBlock" FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_DoorOpeningBlock.uasset" SILENT=true
-[2019.04.30-01.34.29:023][455]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/AE_DoorOpeningBlock7DE1A0224E5785DE0D2A1CB92710DB93.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_DoorOpeningBlock.uasset'
-[2019.04.30-01.34.29:039][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/AE_GentleSlopeBlock" FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_GentleSlopeBlock.uasset" SILENT=true
-[2019.04.30-01.34.29:055][455]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/AE_GentleSlopeBlockC7CF7E784FA89552E97A9F9BDD9D835D.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_GentleSlopeBlock.uasset'
-[2019.04.30-01.34.29:072][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/AE_SteepSlopeBlock" FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_SteepSlopeBlock.uasset" SILENT=true
-[2019.04.30-01.34.29:087][455]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/AE_SteepSlopeBlock09CBB6D9471BA0F0F1F084AC96334D33.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_SteepSlopeBlock.uasset'
-[2019.04.30-01.34.29:103][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/AE_TallThinBlock" FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_TallThinBlock.uasset" SILENT=true
-[2019.04.30-01.34.29:120][455]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/AE_TallThinBlockA4CDC31845337981C815A6810B358699.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Meshes/AE_TallThinBlock.uasset'
-[2019.04.30-01.34.30:330][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.34.30:462][607]LogActorFactory: Actor Factory created AE_DoorOpeningBlock
-[2019.04.30-01.34.31:289][705]LogActorFactory: Actor Factory created AE_DoorOpeningBlock
-[2019.04.30-01.34.35:911][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.34.45:167][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_1)
-[2019.04.30-01.34.46:109][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_DoorOpeningBlock)
-[2019.04.30-01.34.50:550][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.34.59:003][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.35.18:483][101]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AE_Floor_2)
-[2019.04.30-01.35.18:525][101]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.35.20:622][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_DoorOpeningBlock)
-[2019.04.30-01.35.21:383][371]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.35.27:728][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.35.27:853][110]LogActorFactory: Actor Factory created AE_DoorHalfBlock
-[2019.04.30-01.35.28:646][201]LogActorFactory: Actor Factory created AE_DoorHalfBlock
-[2019.04.30-01.35.34:251][843]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.36.51:598][705]Cmd: SELECT NONE
-[2019.04.30-01.36.53:636][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_DoorOpeningBlock)
-[2019.04.30-01.37.00:564][722]Cmd: SELECT NONE
-[2019.04.30-01.37.22:037][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.37.22:336][256]LogActorFactory: Actor Factory created AE_ArcBlock
-[2019.04.30-01.37.23:115][348]LogActorFactory: Actor Factory created AE_ArcBlock
-[2019.04.30-01.37.36:334][867]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.30-01.37.47:445][146]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock)
-[2019.04.30-01.37.55:430][ 64]Cmd: SELECT NONE
-[2019.04.30-01.37.59:071][483]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock2)
-[2019.04.30-01.37.59:493][519]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock3)
-[2019.04.30-01.37.59:967][565]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock4)
-[2019.04.30-01.38.01:182][700]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock)
-[2019.04.30-01.38.21:139][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock)
-[2019.04.30-01.38.26:557][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock4)
-[2019.04.30-01.38.32:942][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock2)
-[2019.04.30-01.38.36:893][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock3)
-[2019.04.30-01.38.40:568][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock2)
-[2019.04.30-01.38.42:158][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock3)
-[2019.04.30-01.38.43:784][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock2)
-[2019.04.30-01.38.46:760][841]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock3)
-[2019.04.30-01.38.47:142][881]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock4)
-[2019.04.30-01.38.47:802][954]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock)
-[2019.04.30-01.39.11:273][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock5)
-[2019.04.30-01.39.11:949][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock6)
-[2019.04.30-01.39.12:403][692]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock7)
-[2019.04.30-01.39.14:475][930]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock2)
-[2019.04.30-01.39.15:279][ 20]Cmd: TRANSACTION UNDO
-[2019.04.30-01.39.15:279][ 20]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.39.15:477][ 37]Cmd: TRANSACTION UNDO
-[2019.04.30-01.39.15:477][ 37]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.39.16:177][113]Cmd: TRANSACTION UNDO
-[2019.04.30-01.39.16:177][113]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.39.17:276][232]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock7)
-[2019.04.30-01.39.18:266][343]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock2)
-[2019.04.30-01.39.18:815][402]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock3)
-[2019.04.30-01.39.23:932][977]Cmd: SELECT NONE
-[2019.04.30-01.42.38:159][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock3)
-[2019.04.30-01.42.59:040][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_1)
-[2019.04.30-01.43.32:007][908]Cmd: SELECT NONE
-[2019.04.30-01.43.33:530][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_22)
-[2019.04.30-01.43.36:121][351]Cmd: TRANSACTION UNDO
-[2019.04.30-01.43.36:121][351]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.43.37:246][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_22)
-[2019.04.30-01.43.38:237][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.44.21:205][417]Cmd: SELECT NONE
-[2019.04.30-01.44.24:161][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_25)
-[2019.04.30-01.44.29:028][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_24)
-[2019.04.30-01.44.30:962][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_DoorOpeningBlock)
-[2019.04.30-01.44.34:522][908]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_DoorHalfBlock2)
-[2019.04.30-01.44.35:779][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_DoorHalfBlock)
-[2019.04.30-01.44.39:566][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_25)
-[2019.04.30-01.44.40:745][625]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_Floor_24)
-[2019.04.30-01.44.41:625][725]Cmd: DELETE
-[2019.04.30-01.44.41:625][725]Cmd: ACTOR DELETE
-[2019.04.30-01.44.41:641][725]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.44.41:642][725]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.44.41:663][725]LogEditorActor: Deleted 2 Actors (0.037 secs)
-[2019.04.30-01.44.42:666][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_23)
-[2019.04.30-01.44.45:200][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.44.46:314][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_22)
-[2019.04.30-01.44.47:161][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.44.48:516][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_23)
-[2019.04.30-01.44.49:218][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_22)
-[2019.04.30-01.44.51:566][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_23)
-[2019.04.30-01.45.00:719][866]Cmd: SELECT NONE
-[2019.04.30-01.45.14:759][509]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock2)
-[2019.04.30-01.45.15:216][549]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock3)
-[2019.04.30-01.45.15:630][592]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock4)
-[2019.04.30-01.45.16:203][655]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock)
-[2019.04.30-01.45.16:625][700]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock9)
-[2019.04.30-01.45.17:099][747]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock10)
-[2019.04.30-01.45.18:238][876]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock11)
-[2019.04.30-01.45.18:794][937]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock12)
-[2019.04.30-01.45.19:266][988]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock8)
-[2019.04.30-01.45.19:951][ 64]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock7)
-[2019.04.30-01.45.21:001][184]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock6)
-[2019.04.30-01.45.22:223][322]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock5)
-[2019.04.30-01.45.47:066][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock18)
-[2019.04.30-01.45.47:626][406]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock19)
-[2019.04.30-01.45.48:105][456]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock20)
-[2019.04.30-01.45.48:696][520]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock24)
-[2019.04.30-01.45.49:270][581]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock17)
-[2019.04.30-01.45.49:870][646]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock23)
-[2019.04.30-01.45.59:112][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock31)
-[2019.04.30-01.45.59:664][765]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock34)
-[2019.04.30-01.46.00:142][805]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock25)
-[2019.04.30-01.46.00:547][847]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock28)
-[2019.04.30-01.46.20:743][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock27)
-[2019.04.30-01.46.32:383][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock32)
-[2019.04.30-01.46.38:523][101]Cmd: SELECT NONE
-[2019.04.30-01.46.43:313][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock37)
-[2019.04.30-01.46.44:227][744]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock40)
-[2019.04.30-01.46.44:677][792]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock36)
-[2019.04.30-01.46.46:386][987]Cmd: TRANSACTION UNDO
-[2019.04.30-01.46.46:386][987]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.46.47:657][130]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock29)
-[2019.04.30-01.46.56:142][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock36)
-[2019.04.30-01.47.02:419][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock40)
-[2019.04.30-01.47.12:346][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock37)
-[2019.04.30-01.47.18:126][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock29)
-[2019.04.30-01.47.24:168][337]Cmd: SELECT NONE
-[2019.04.30-01.47.29:786][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_21)
-[2019.04.30-01.47.31:086][113]Cmd: DELETE
-[2019.04.30-01.47.31:086][113]Cmd: ACTOR DELETE
-[2019.04.30-01.47.31:101][113]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.47.31:122][113]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2019.04.30-01.47.31:539][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_18)
-[2019.04.30-01.47.31:901][189]Cmd: DELETE
-[2019.04.30-01.47.31:902][189]Cmd: ACTOR DELETE
-[2019.04.30-01.47.31:918][189]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.47.31:940][189]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2019.04.30-01.47.33:898][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_Floor_15)
-[2019.04.30-01.47.34:526][482]Cmd: DELETE
-[2019.04.30-01.47.34:526][482]Cmd: ACTOR DELETE
-[2019.04.30-01.47.34:542][482]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.04.30-01.47.34:562][482]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2019.04.30-01.47.58:048][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock18)
-[2019.04.30-01.47.58:551][227]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock19)
-[2019.04.30-01.47.58:991][268]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock20)
-[2019.04.30-01.47.59:599][334]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock17)
-[2019.04.30-01.48.03:656][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.48.57:189][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock55)
-[2019.04.30-01.48.59:883][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock58)
-[2019.04.30-01.49.02:842][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock56)
-[2019.04.30-01.49.05:850][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock57)
-[2019.04.30-01.49.09:851][ 61]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock48)
-[2019.04.30-01.49.10:266][ 94]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock47)
-[2019.04.30-01.49.14:233][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_ArcBlock49)
-[2019.04.30-01.49.14:847][615]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock50)
-[2019.04.30-01.49.24:022][664]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock43)
-[2019.04.30-01.49.25:181][795]Cmd: TRANSACTION UNDO
-[2019.04.30-01.49.25:182][795]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.30-01.49.25:350][808]Cmd: TRANSACTION UNDO
-[2019.04.30-01.49.25:350][808]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.49.26:105][891]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock44)
-[2019.04.30-01.49.26:631][947]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock43)
-[2019.04.30-01.49.27:530][ 40]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock51)
-[2019.04.30-01.49.28:097][101]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock52)
-[2019.04.30-01.49.28:631][158]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock58)
-[2019.04.30-01.49.30:386][358]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_ArcBlock57)
-[2019.04.30-01.49.47:441][351]Cmd: SELECT NONE
-[2019.04.30-01.50.11:572][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock7)
-[2019.04.30-01.50.11:987][233]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock3)
-[2019.04.30-01.50.17:050][817]Cmd: TRANSACTION UNDO
-[2019.04.30-01.50.17:050][817]LogEditorTransaction: Undo Move Actors
-[2019.04.30-01.50.24:263][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock6)
-[2019.04.30-01.50.24:739][629]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock2)
-[2019.04.30-01.50.36:182][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock11)
-[2019.04.30-01.50.36:745][939]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock15)
-[2019.04.30-01.50.40:040][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock10)
-[2019.04.30-01.50.40:473][346]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock14)
-[2019.04.30-01.50.48:560][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock22)
-[2019.04.30-01.50.49:145][320]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock18)
-[2019.04.30-01.51.01:926][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AE_TallThinBlock19)
-[2019.04.30-01.51.02:431][808]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AE_TallThinBlock23)
-[2019.04.30-01.51.14:073][145]Cmd: SELECT NONE
-[2019.04.30-01.52.29:965][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.30-01.52.31:121][240]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/StreetBlockLocal7CE944C34ECC0CAFEEC6EDA80CDA4810.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Maps/StreetBlockLocal.umap'
-[2019.04.30-01.52.31:223][240]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/StreetBlockLocal_BuiltDataA629938D4043D77E9356F69D024DE9EB.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Maps/StreetBlockLocal_BuiltData.uasset'
-[2019.04.30-01.52.34:068][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-07.43.25:685][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.30-07.43.25:685][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.30-07.43.25:704][  0]LogHAL: Display: Platform has ~ 8 GB [8536752128 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.30-07.43.25:704][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.30-07.43.25:704][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.30-07.43.25:720][  0]LogInit: Computer: ALEX-PC
+[2019.04.30-07.43.25:720][  0]LogInit: User: Alex
+[2019.04.30-07.43.25:720][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.30-07.43.25:720][  0]LogInit: High frequency timer resolution =3.421880 MHz
+[2019.04.30-07.43.25:721][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.04.30-07.43.25:721][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.30-07.43.25:721][  0]LogMemory: Process Physical Memory: 100.07 MB used, 100.07 MB peak
+[2019.04.30-07.43.25:721][  0]LogMemory: Process Virtual Memory: 84.16 MB used, 84.16 MB peak
+[2019.04.30-07.43.25:721][  0]LogMemory: Physical Memory: 5033.12 MB used,  3108.16 MB free, 8141.28 MB total
+[2019.04.30-07.43.25:721][  0]LogMemory: Virtual Memory: 4620.61 MB used,  3108.16 MB free, 134217728.00 MB total
+[2019.04.30-07.43.26:068][  0]LogInit: Using OS detected language (en-US).
+[2019.04.30-07.43.26:068][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.30-07.43.26:068][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.30-07.43.26:447][  0]LogStreaming: Display: Took  0.378s to InitEngineTextLocalization.
+[2019.04.30-07.43.26:447][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.30-07.43.26:533][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.30-07.43.26:533][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.30-07.43.28:460][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.30-07.43.28:460][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.30-07.43.28:517][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.04.30-07.43.28:517][  0]LogD3D11RHI:       6052/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.30-07.43.28:520][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.30-07.43.28:520][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.30-07.43.28:520][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.30-07.43.28:525][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.30-07.43.28:526][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.30-07.43.28:526][  0]LogWindows: EnumDisplayDevices:
+[2019.04.30-07.43.28:526][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.04.30-07.43.28:526][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.04.30-07.43.28:526][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.30-07.43.28:526][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.30-07.43.28:526][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.30-07.43.28:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.04.30-07.43.28:526][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.04.30-07.43.28:526][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.04.30-07.43.28:526][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.30-07.43.28:562][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.30-07.43.28:579][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.30-07.43.28:581][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Intermediate/Shaders/WorkingDirectory/13336/).
+[2019.04.30-07.43.28:581][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/43F6DDAD47B154B4E988FFB1522C90CD/'.
+[2019.04.30-07.43.29:005][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.30-07.43.29:033][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.30-07.43.29:055][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.30-07.43.29:083][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.30-07.43.29:124][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.30-07.43.29:182][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.30-07.43.29:241][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.30-07.43.29:285][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.30-07.43.29:316][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:424][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:425][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-07.43.29:452][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.30-07.43.29:595][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.30-07.43.29:595][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.30-07.43.29:644][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.30-07.43.29:644][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.30-07.43.29:679][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.30-07.43.29:712][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.30-07.43.29:750][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.30-07.43.29:788][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.30-07.43.29:813][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.30-07.43.29:813][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.30-07.43.30:621][  0]LogXGEController: Cleaning working directory: C:/Users/Alex/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.30-07.43.30:621][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.30-07.43.30:621][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.30-07.43.30:621][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.30-07.43.32:270][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.30-07.43.32:336][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Alex/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.30-07.43.32:337][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.30-07.43.32:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.30-07.43.32:337][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.30-07.43.32:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.30-07.43.32:337][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.30-07.43.32:376][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.30-07.43.32:388][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.30-07.43.32:388][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.30-07.43.32:388][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.30-07.43.32:406][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.30-07.43.32:407][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.30-07.43.32:419][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.30-07.43.32:626][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2019.04.30-07.43.32:906][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.30-07.43.33:258][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.30-07.43.33:335][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.30-07.43.33:335][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.30-07.43.33:335][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.30-07.43.33:335][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.30-07.43.33:430][  0]LogNetVersion: SizeTest 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 433744816)
+[2019.04.30-07.43.34:008][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.131937 seconds
+[2019.04.30-07.43.34:014][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.30-07.43.34:014][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.30-07.43.34:014][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.30-07.43.37:598][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.30-07.43.37:642][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.30-07.43.38:186][  0]SourceControl: Source control is disabled
+[2019.04.30-07.43.38:186][  0]SourceControl: Source control is disabled
+[2019.04.30-07.43.38:222][  0]SourceControl: Source control is disabled
+[2019.04.30-07.43.38:249][  0]SourceControl: Source control is disabled
+[2019.04.30-07.43.39:352][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.30-07.43.39:574][  0]LogOcInput: OculusInput pre-init called
+[2019.04.30-07.43.39:768][  0]LogEngine: Initializing Engine...
+[2019.04.30-07.43.39:769][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.04.30-07.43.39:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.30-07.43.39:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.30-07.43.39:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.30-07.43.39:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.30-07.43.39:978][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.30-07.43.40:017][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.30-07.43.40:077][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.30-07.43.40:092][  0]LogInit: FAudioDevice initialized.
+[2019.04.30-07.43.40:093][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.30-07.43.40:187][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Alex/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.30-07.43.40:195][  0]LogInit: Texture streaming: Enabled
+[2019.04.30-07.43.40:306][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.30-07.43.40:342][  0]LogInit: Transaction tracking system initialized
+[2019.04.30-07.43.40:516][  0]BlueprintLog: New page: Editor Load
+[2019.04.30-07.43.41:322][  0]LocalizationService: Localization service is disabled
+[2019.04.30-07.43.42:120][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.30-07.43.42:120][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.30-07.43.42:120][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.30-07.43.42:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.30-07.43.42:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.30-07.43.42:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.30-07.43.42:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.30-07.43.42:958][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/' took 0.02s
+[2019.04.30-07.43.43:011][  0]SourceControl: Source control is disabled
+[2019.04.30-07.43.43:011][  0]Cmd: MAP LOAD FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.30-07.43.43:011][  0]LightingResults: New page: Lighting Build
+[2019.04.30-07.43.43:014][  0]MapCheck: New page: Map Check
+[2019.04.30-07.43.43:014][  0]LightingResults: New page: Lighting Build
+[2019.04.30-07.43.43:524][  0]LogAIModule: Creating AISystem for world TestMap
+[2019.04.30-07.43.43:531][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.30-07.43.43:554][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.30-07.43.43:613][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.958ms to complete.
+[2019.04.30-07.43.43:613][  0]LogFileHelpers: Loading map 'TestMap' took 0.603
+[2019.04.30-07.43.43:739][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-07.43.43:746][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-07.43.43:753][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-07.43.43:760][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-07.43.43:778][  0]LogCollectionManager: Loaded 0 collections in 0.001278 seconds
+[2019.04.30-07.43.43:822][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/Collections/' took 0.01s
+[2019.04.30-07.43.43:822][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Developers/Alex/Collections/' took 0.01s
+[2019.04.30-07.43.43:822][  0]LogFileCache: Scanning file cache for directory 'D:/Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Collections/' took 0.01s
+[2019.04.30-07.43.43:822][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.30-07.43.43:830][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2572 classes and 603 folders.
+[2019.04.30-07.43.43:835][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.30-07.43.44:119][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.30-07.43.44:149][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.30-07.43.45:312][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.30-07.43.45:347][  0]LogSlate: Took 0.007621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.30-07.43.45:353][  0]LogSlate: Took 0.004702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.30-07.43.45:362][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SizeTest
+[2019.04.30-07.43.45:362][  0]LogTemp: CWD: D:\Production\Epic Games\Unreal Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.30-07.43.45:362][  0]LogTemp: Initial Dir: D:\Production\Epic Games\Unreal Engine\UE_4.20
+[2019.04.30-07.43.45:362][  0]LogTemp: Env CWD: D:\Production\Epic Games\Unreal Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.30-07.43.45:362][  0]LogSlate: Took 0.004549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.30-07.43.45:463][  0]LogTemp: BranchPath = ALEX-PC/D/Production/Epic Games/Unreal Engine/UE_4.20/Engine/Binaries --- GameBranchPath = ALEX-PC/D/Production/Epic Games/Unreal Engine/UE_4.20/Engine/Binaries
+[2019.04.30-07.43.45:464][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Alex\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.30-07.43.45:464][  0]LogRenderer: Reallocating scene render targets to support 1192x656 Format 10 NumSamples 1 (Frame:1).
+[2019.04.30-07.43.45:527][  0]LogSlate: Took 0.003227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.30-07.43.45:699][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.30-07.43.45:700][  0]LogLoad: (Engine Initialization) Total time: 23.82 seconds
+[2019.04.30-07.43.45:700][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.30-07.43.45:736][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.30-07.43.45:800][  1]LogAssetRegistry: Asset discovery search completed in 13.1970 seconds
+[2019.04.30-07.43.45:802][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.30-07.43.45:802][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2019.04.30-07.43.48:628][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-07.43.48:719][333]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.30-07.43.48:722][333]LogSlate: Window 'Project Settings' being destroyed
+[2019.04.30-07.43.49:708][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-07.43.51:953][714]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.30-07.43.52:442][714]LogAIModule: Creating AISystem for world StreetBlockLocal
+[2019.04.30-07.43.52:476][714]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/StreetBlockLocal.StreetBlockLocal
+[2019.04.30-07.43.52:505][714]Cmd: MAP LOAD FILE="../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Maps/StreetBlockLocal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.30-07.43.52:505][714]LightingResults: New page: Lighting Build
+[2019.04.30-07.43.52:506][714]LoadErrors: New page: Loading map: StreetBlockLocal.umap
+[2019.04.30-07.43.52:507][714]MapCheck: New page: Map Check
+[2019.04.30-07.43.52:507][714]LightingResults: New page: Lighting Build
+[2019.04.30-07.43.52:583][714]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.30-07.43.52:640][714]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.30-07.43.52:706][714]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.806ms to complete.
+[2019.04.30-07.43.52:708][714]LogFileHelpers: Loading map 'StreetBlockLocal' took 0.204
+[2019.04.30-07.44.01:709][548]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/StreetBlockLocal66495C4F491195244BE829A14F78767D.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Maps/StreetBlockLocal.umap'
+[2019.04.30-07.44.01:768][548]LogSavePackage: Moving '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Saved/StreetBlockLocal_BuiltData102A70874E224012E02854A25BAB8107.tmp' to '../../../../../../../Github Repos/AE_AssetPipelinePersonalRepo/SizeTest/Content/Maps/StreetBlockLocal_BuiltData.uasset'
+[2019.04.30-07.44.02:752][642]LogSlate: Window 'SizeTest - Unreal Editor' being destroyed
+[2019.04.30-07.44.02:752][642]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.30-07.44.02:926][643]Cmd: QUIT_EDITOR
+[2019.04.30-07.44.02:953][643]LogExit: Preparing to exit.
+[2019.04.30-07.44.03:743][643]LogExit: Editor shut down
+[2019.04.30-07.44.03:743][643]LogExit: Transaction tracking system shut down
+[2019.04.30-07.44.04:419][643]LogExit: Object subsystem successfully closed.
+[2019.04.30-07.44.04:439][643]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.30-07.44.04:442][643]LogD3D11RHI: Shutdown
+[2019.04.30-07.44.04:442][643]LogD3D11RHI: CleanupD3DDevice
+[2019.04.30-07.44.04:443][643]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (610)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.30-07.44.04:453][643]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.30-07.44.04:454][643]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.30-07.44.04:793][643]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.30-07.44.04:794][643]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.30-07.44.04:794][643]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.30-07.44.04:794][643]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.30-07.44.04:794][643]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.30-07.44.04:794][643]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.30-07.44.04:794][643]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.30-07.44.04:794][643]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.30-07.44.04:848][643]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.30-07.44.04:849][643]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.30-07.44.05:047][643]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.30-07.44.05:048][643]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.30-07.44.05:055][643]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.30-07.44.05:055][643]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.30-07.44.05:055][643]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.30-07.44.05:056][643]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.30-07.44.05:057][643]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.30-07.44.05:158][643]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.30-07.44.05:259][643]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.30-07.44.05:259][643]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.30-07.44.05:259][643]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.30-07.44.05:259][643]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.30-07.44.05:259][643]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.30-07.44.05:259][643]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.30-07.44.05:259][643]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.30-07.44.05:260][643]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.30-07.44.05:260][643]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.30-07.44.05:260][643]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.30-07.44.05:260][643]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.30-07.44.05:260][643]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.30-07.44.05:261][643]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.30-07.44.05:261][643]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.30-07.44.05:261][643]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.30-07.44.05:261][643]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.30-07.44.05:261][643]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.30-07.44.05:261][643]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.30-07.44.05:262][643]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.30-07.44.05:268][643]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.30-07.44.05:269][643]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.30-07.44.05:269][643]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.30-07.44.05:269][643]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.30-07.44.05:269][643]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.30-07.44.05:270][643]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.30-07.44.05:434][643]LogDerivedDataCache: Shutdown
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.30-07.44.05:436][643]LogXGEController: Cleaning working directory: C:/Users/Alex/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.30-07.44.05:436][643]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.30-07.44.05:437][643]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.30-07.44.05:438][643]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.30-07.44.05:438][643]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.30-07.44.05:443][643]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.30-07.44.05:444][643]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.30-07.44.05:444][643]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.30-07.44.05:460][643]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.30-07.44.05:460][643]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.30-07.44.05:460][643]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B64C12E34-4494-949C-68E1-FBB79C640D9C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=ac863c164157025ec7e58b819152d395%7C9630c56f0d7b4fc496046aa1e29070f1%7Cb529136e-3ae7-4f26-99c7-b521269b8eb0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.30-07.44.05:465][643]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.30-07.44.05:465][643]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.30-07.44.05:466][643]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.30-07.44.05:470][643]LogExit: Exiting.
+[2019.04.30-07.44.05:480][643]Log file closed, 04/30/19 01:44:05
